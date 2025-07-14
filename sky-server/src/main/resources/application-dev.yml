@@ -10,4 +10,7 @@ sky:
     access-key-secret:
     access-key-id:
     bucket-name:
-    endpoint: 
+    endpoint:
+  redis:
+    host: localhost
+    port: 6379

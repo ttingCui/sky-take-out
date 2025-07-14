@@ -15,6 +15,9 @@ spring:
   web:
     resources:
       static-locations: file:F:/JavaWeb/uploads/
+  redis:
+    host: ${sky.redis.host}
+    port: ${sky.redis.port}
 
 
 mybatis:
