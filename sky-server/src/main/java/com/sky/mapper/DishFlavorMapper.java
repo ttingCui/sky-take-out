@@ -12,4 +12,6 @@ public interface DishFlavorMapper {
      * @param flavors
      */
     public void insertBatch(List<DishFlavor> flavors);
+
+    List<DishFlavor> getByDishId(Long id);
 }
