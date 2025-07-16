@@ -52,4 +52,6 @@ public interface DishMapper {
     List<Dish> getBySetmealId(Long setmealId);
 
     void update(Dish dish);
+
+    Dish getById(Long dishId);
 }
